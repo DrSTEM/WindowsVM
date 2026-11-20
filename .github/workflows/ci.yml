@@ -1,0 +1,32 @@
+name: Checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source:
+    name: Source and documentation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check publication boundaries and documentation
+        run: python3 scripts/check-repo.py
+      - name: Check script syntax
+        run: |
+          for script in Install.command scripts/*.sh; do bash -n "$script"; done
+          python3 -m compileall -q scripts
+  core:
+    name: Core and temporary disk checks
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare disk tool
+        run: |
+          brew list qemu >/dev/null 2>&1 || brew install qemu
+          mkdir -p Runtime/bin
+          ln -s "$(brew --prefix)/bin/qemu-img" Runtime/bin/qemu-img
+      - name: Run core checks
+        run: bash scripts/test.sh
