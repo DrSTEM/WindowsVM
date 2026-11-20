@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480" role="img" aria-labelledby="title desc">
+<title id="title">Windows VM — Windows, in a Mac window.</title>
+<desc id="desc">A dark blue project banner with a stylised window icon. Native macOS, Apple Silicon, Metal display.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090f20"/><stop offset="1" stop-color="#152e56"/></linearGradient>
+  <linearGradient id="glow" x2="1" y2="1"><stop stop-color="#67e8f9"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+  <radialGradient id="orb"><stop stop-color="#3b82f6" stop-opacity=".25"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1440" height="480" rx="28" fill="url(#bg)"/>
+<circle cx="1135" cy="230" r="380" fill="url(#orb)"/>
+<path d="M0 400H1440M0 320H1440M0 240H1440M0 160H1440M0 80H1440M1040 0V480M1120 0V480M1200 0V480M1280 0V480M1360 0V480" stroke="#c7d2fe" stroke-opacity=".035"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+<rect x="80" y="72" width="173" height="31" rx="15.5" stroke="#7dd3fc" stroke-opacity=".35" fill="#7dd3fc" fill-opacity=".07"/>
+<circle cx="98" cy="88" r="4" fill="#67e8f9"/>
+<text x="112" y="93" font-size="13" letter-spacing="2" fill="#bae6fd">EARLY ACCESS</text>
+<text x="76" y="204" font-size="88" font-weight="700" letter-spacing="-4" fill="#f8fafc">Windows VM</text>
+<text x="80" y="268" font-size="34" fill="#cbd5e1" letter-spacing="-.7">Windows, in a Mac window.</text>
+<text x="80" y="369" font-size="17" fill="#93c5fd" letter-spacing="1">NATIVE macOS</text>
+<circle cx="251" cy="363" r="2" fill="#475569"/>
+<text x="273" y="369" font-size="17" fill="#93c5fd" letter-spacing="1">APPLE SILICON</text>
+<circle cx="448" cy="363" r="2" fill="#475569"/>
+<text x="470" y="369" font-size="17" fill="#93c5fd" letter-spacing="1">METAL DISPLAY</text>
+</g>
+<g transform="translate(907 105)">
+<rect x="0" y="0" width="390" height="272" rx="24" fill="#0f1e38" stroke="#7dd3fc" stroke-opacity=".38"/>
+<path d="M0 48H390" stroke="#7dd3fc" stroke-opacity=".2"/>
+<circle cx="25" cy="25" r="5" fill="#fb7185"/><circle cx="45" cy="25" r="5" fill="#fbbf24"/><circle cx="65" cy="25" r="5" fill="#34d399"/>
+<rect x="72" y="90" width="246" height="132" rx="16" fill="url(#glow)" fill-opacity=".08"/>
+<g stroke="url(#glow)" stroke-width="5" fill="none" stroke-linejoin="round">
+<path d="M147 124L190 118V155H147Z M202 116L246 110V155H202Z M147 168H190V205L147 199Z M202 168H246V213L202 207Z"/>
+</g>
+<rect x="141" y="-11" width="108" height="23" rx="11.5" fill="#334c71" stroke="#7dd3fc" stroke-opacity=".4"/>
+<rect x="178" y="-1" width="34" height="3" rx="1.5" fill="#cbd5e1"/>
+</g>
+</svg>

@@ -1,0 +1,9 @@
+The MIT license in LICENSE covers original Windows VM source and documentation.
+Third-party software remains under its own licenses; see ThirdParty/README.md.
+CocoaSpice is built from utmapp/CocoaSpice under Apache-2.0. The build fetches
+its pinned source and preserves its LICENSE in the app bundle.
+The runtime is obtained separately from official UTM and Homebrew sources.
+No Windows installer, guest tools ISO, VM disk, or runtime binary is included
+in this source repository. Windows requires a separate license.
+Windows VM is an independent project, not affiliated with Microsoft, Apple,
+Turing Software, UTM, or Parallels. Product names belong to their owners.

@@ -1,0 +1,35 @@
+name: Bug report
+description: Report something that did not work
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Check the troubleshooting guide first. Keep disks, ISOs, credentials, recovery keys, and private logs out of issues. Use Security for vulnerabilities."
+  - type: input
+    id: environment
+    attributes:
+      label: Mac and software versions
+      description: "Mac chip, RAM, macOS, Xcode, app version or Git revision, Windows version."
+    validations:
+      required: true
+  - type: dropdown
+    id: graphics
+    attributes:
+      label: Graphics mode
+      options:
+        - SPICE / Metal (display only)
+        - Compatibility (VNC)
+        - Metal and Direct3D 11 (experimental)
+        - Setup or build issue
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: "What did you do, what did you expect, and what happened?"
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Relevant error or log excerpt
+      description: "Review for private data before sharing. Include a short excerpt only."

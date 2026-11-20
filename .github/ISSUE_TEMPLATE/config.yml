@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Installation and troubleshooting
+    url: https://github.com/DrSTEM/WindowsVM/blob/main/docs/TROUBLESHOOTING.md
+    about: Common setup, driver, display, and storage problems
+  - name: Security reporting
+    url: https://github.com/DrSTEM/WindowsVM/security
+    about: Report vulnerabilities privately
