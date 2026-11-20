@@ -36,7 +36,7 @@ The validation deliberately leaves the existing installed app and running guest 
 
 `python3 scripts/check-repo.py` checks tracked publication boundaries, common credential patterns, personal absolute paths, unexpected binaries, and relative documentation links. It is a useful guard, not a complete secret scanner or security audit.
 
-GitHub Actions runs source/documentation checks and core tests on temporary disks. It does not boot Windows or validate experimental graphics. Build warnings inherited from the pinned CocoaSpice headers/implementation are not treated as successful graphics tests.
+GitHub Actions is configured to run source/documentation checks and core tests on temporary disks. At publication, its runners could not start due to an account-level restriction; the successful results above are local verification. Hosted CI does not boot Windows or validate experimental graphics. Build warnings inherited from the pinned CocoaSpice headers/implementation are not treated as successful graphics tests.
 
 ## Current limitations
 

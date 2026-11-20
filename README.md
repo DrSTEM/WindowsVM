@@ -10,7 +10,7 @@ SwiftUI controls. Apple Silicon virtualisation. A Metal-powered display.
 
 [![Platform](https://img.shields.io/badge/Apple_Silicon-macOS-111827?logo=apple&logoColor=white)](docs/INSTALLATION.md)
 [![Source license](https://img.shields.io/badge/original_source-MIT-4f46e5)](LICENSE)
-[![Checks](https://github.com/DrSTEM/WindowsVM/actions/workflows/ci.yml/badge.svg)](https://github.com/DrSTEM/WindowsVM/actions/workflows/ci.yml)
+[![Local validation](https://img.shields.io/badge/local_checks-28_passed-22c55e)](docs/STATUS.md)
 [![Status](https://img.shields.io/badge/status-early_access-38bdf8)](docs/STATUS.md)
 
 [Install](docs/INSTALLATION.md) · [Use](docs/USAGE.md) · [Update](docs/UPDATING.md) · [How it works](docs/ARCHITECTURE.md) · [Get help](docs/TROUBLESHOOTING.md)
